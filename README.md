@@ -1,8 +1,8 @@
-# Kickoff GatsbyJs
+# Portfolio GatsbyJs
 
 A starting point using ReactJs, bundled with awesome GatsbyJs v2.
 
-[Demo](https://kickoff-gatsbyjs.netlify.com/)
+[Demo](/)
 
 ## Stack
 
@@ -35,6 +35,7 @@ yarn start
 ## Deployment
 
 ```
+
 yarn run build
 yarn serve
 ```
