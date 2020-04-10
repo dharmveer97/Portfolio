@@ -9,7 +9,6 @@ const ContactUs = () => {
           <h4 className="subtitle is-5">Get in touch</h4>
         </div>
         <br />
-
         <div className="columns">
           <div className="column is-6 is-offset-3">
             <div className="box">

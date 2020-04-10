@@ -5,6 +5,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyle, { theme } from '../utils/theme';
 import config from '../utils/config';
 import Header from './Header';
+import Footer from './Footer';
 
 const Container = styled.div`
   min-height: 70vh;
@@ -21,7 +22,9 @@ const IndexLayout = ({ children, hideHeader }) => (
       </Helmet>
       <GlobalStyle />
       {!hideHeader && <Header />}
+
       <Container>{children}</Container>
+      <Footer />
     </>
   </ThemeProvider>
 );
