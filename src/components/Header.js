@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav className="navbar is-link is-fixed-top">
+    <nav className="navbar is-info is-fixed-top">
       <div className="navbar-brand">
         <div
           className="navbar-burger burger"

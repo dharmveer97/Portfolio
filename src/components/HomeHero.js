@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Section = styled.div`
-  /* background: linear-gradient(135deg, #35aef8 0%, #7681ff 76%, #7681ff 76%); */
-`;
+const Section = styled.div``;
 
 const HomeHero = () => {
   return (
