@@ -1,10 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset-advanced';
-import { darken, lighten } from 'polished';
 
 const mainBrandColor = '#00D1B2';
 const lightShades = '#F5F5F5';
-const darkAccent = '#3173DC';
+const darkAccent =
+  'linear-gradient(135deg, #35aef8 0%, #7681ff 76%, #7681ff 76%)';
 const darkShades = '#0A0A0A';
 
 export const theme = {
@@ -50,7 +50,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${theme.secondaryFontFamily};
     color: ${theme.textColor};
     letter-spacing: 0.03rem !important;
-
   }
 
   .has-same-height .card {
@@ -80,6 +79,9 @@ const GlobalStyle = createGlobalStyle`
 .skills-content .progress {
   height: 4px !important;
 }
+.is-link {
+  background: linear-gradient(135deg,#35aef8 0%,#7681ff 76%,#7681ff 76%) !important;
+}
 
 .custom-tags {
   text-align: center !important;
@@ -95,6 +97,7 @@ const GlobalStyle = createGlobalStyle`
   margin-top: 1em;
   margin-bottom: 6em;
 }
+
 `;
 
 export default GlobalStyle;
