@@ -6,8 +6,8 @@ const HomeHero = () => {
       <div className="hero-body">
         <div className="container">
           Hello! I am
-          <h1 className="title is-1">Minion Tim</h1>
-          <h2 className="subtitle is-3">Full Stack Web Developer</h2>
+          <h1 className="title is-1">Dharmveer Bangar</h1>
+          <h2 className="subtitle is-3">Front End Web Developer</h2>
         </div>
       </div>
     </section>

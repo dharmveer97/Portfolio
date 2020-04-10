@@ -5,7 +5,7 @@ module.exports = {
   author: 'Parminder Klair',
   description: 'A starting point using ReactJs, bundled with awesome GatsbyJs.',
   siteUrl: 'http://kickoff-gatsbyjs.netlify.com',
-  logo: '/images/logo-1024.png',
+  logo: '/images/logo-1024.svg',
 
   telephone: '+1-123-123-123',
   email: 'john@doe.com',
